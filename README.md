@@ -15,4 +15,4 @@ c_2:...:c_(2n-1)
 
 4. Sabemos que al no contemplar c_1 no cubre el caso en el que el substring es el string completo
 
-5. Al concatenar dos veces la cadena, y hacerle substring aseguramos que la misma cadena este contenida ahí si y solo si puede ser construido por algn subtring de la cadena orginal.
+5. Al concatenar dos veces la cadena, y hacerle substring (NO DEBEN DE CONTEMPLARSE EL PRIMERO NI EL ÚLTIMO char) aseguramos que la misma cadena este contenida ahí si y solo si puede ser construido por algn subtring de la cadena orginal.
