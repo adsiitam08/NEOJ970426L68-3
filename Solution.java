@@ -27,26 +27,26 @@ public class Solution {
     public static void main(String[] args){
         Solution sol = new Solution();
         
-        System.out.println(sol.gus("abab"));
-        System.out.println(sol.gus("abba"));
-        System.out.println(sol.gus("gugus"));
-        System.out.println(sol.gus("gusugs"));
-        System.out.println(sol.gus("gusgus"));
-        System.out.println(sol.gus("gustavogustavogustavo"));
-        System.out.println(sol.gus("pruebapruebas"));
-        System.out.println(sol.gus("ahhhhhhhhhhhhhhhha"));
-        System.out.println(sol.gus("hhhhhhh"));
-        System.out.println(sol.gus("a___a"));
-        System.out.println(sol.gus("a_aaa_a"));
-        System.out.println(sol.gus("holaalo"));
-        System.out.println(sol.gus("hholahola"));
-        System.out.println(sol.gus("12341234"));
-        System.out.println(sol.gus("12_21_12"));
-        System.out.println(sol.gus("prueba"));
-        System.out.println(sol.gus("okokok"));
-        System.out.println(sol.gus("nelnol"));
-        System.out.println(sol.gus("simonsimon"));
-        System.out.println(sol.gus("okasdokas"));
+        System.out.println(sol.problema("abab")); //true
+        System.out.println(sol.problema("abba")); //false
+        System.out.println(sol.problema("gugus")); //false
+        System.out.println(sol.problema("gusugs")); //false
+        System.out.println(sol.problema("gusgus")); //true
+        System.out.println(sol.problema("gustavogustavogustavo")); //true
+        System.out.println(sol.problema("pruebapruebas")); //false
+        System.out.println(sol.problema("ahhhhhhhhhhhhhhhha")); //false
+        System.out.println(sol.problema("hhhhhhh")); //true
+        System.out.println(sol.problema("a___a")); //false
+        System.out.println(sol.problema("a_aaa_a")); //false
+        System.out.println(sol.problema("holaalo")); //false
+        System.out.println(sol.problema("hholahola")); //false
+        System.out.println(sol.problema("12341234")); //true
+        System.out.println(sol.problema("12_21_12")); //false
+        System.out.println(sol.problema("prueba")); //false
+        System.out.println(sol.problema("okokok")); //true
+        System.out.println(sol.problema("nelnol")); //false
+        System.out.println(sol.problema("simonsimon")); //true
+        System.out.println(sol.problema("okasdokas")); //false
         
     }
 }
